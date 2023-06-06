@@ -20,7 +20,8 @@ public class Personnage {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Personnage(String nom, String classe, int PV, int attaque, int argent, int attaqueSpeciale, int defense, int energie, int capacite) {
+	public Personnage(String nom, String classe, int PV, int attaque, int argent, int attaqueSpeciale, int defense,
+			int energie, int capacite) {
 		super();
 		this.nom = nom;
 		this.classe = classe;
@@ -32,7 +33,7 @@ public class Personnage {
 		this.energie = energie;
 		this.capacite = capacite;
 	}
-	
+
 	public int getAttaqueSpeciale() {
 		return attaqueSpeciale;
 	}
@@ -108,11 +109,6 @@ public class Personnage {
 	public void setArgent(int argent) {
 		this.argent = argent;
 	}
-
-//	public void creerPersonnage(String nom, String classe, int pV, int attaque, int defense, int energie,
-//			int capacite) {
-//		listePersos.add(new Personnage(nom, classe, attaque, defense, energie, capacite));
-//	}
 
 	public void menu() {
 		System.out.println("---- QUE VOULEZ VOUS FAIRE ----");

@@ -10,7 +10,7 @@ public class Voleur extends Heros {
 	}	
 
 	public Voleur(String nom, String classe) {
-		super(nom, classe, 100, 100, 10, 25, 10, 10, 10);
+		super(nom, classe, 100, 200, 10, 25, 10, 10, 10);
 		// String nom, String classe, int PV, int argent, int attaque, int attaqueSpeciale, int defense, int energie, int capacite
 
 		

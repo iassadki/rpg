@@ -34,7 +34,15 @@ public class Donjon {
 		this.nomDonjon = nomDonjon;
 	}
 	
-	
+	public final void listeBossVide(Monstre monstre) {
+		
+		if (monstres.isEmpty()) {
+			System.out.println(" ");
+			System.out.println("Vous n'avez plus de Heros dans votre liste de Heros");
+			System.out.println("==== FIN DU JEU, VOUS AVEZ PERDU====");
+			System.exit(0);
+		}
+	}
 
 
 //	public String getEnnemi() {
